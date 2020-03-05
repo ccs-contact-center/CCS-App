@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "CCS Clientes",
+    "icon": "./assets/images/ic_launcher.png",
+    "version": "1.0.0",
+    "slug": "CCSolutions",
+    "sdkVersion": "32.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "com.ccsolutions.ccs",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Necesitamos tu permiso para activar FaceID/TouchID"
+      }
+    },
+    "android": {
+      "package": "com.ccsolutions.ccs",
+      "versionCode": 2
+    },
+    "splash": {
+      "image": "./assets/images/splash.png"
+    },
+    "assetBundlePatterns": [
+      "./assets/images/*"
+    ],
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "description": "",
+    "githubUrl": "https://github.com/iacontrerasg/CCS-App"
+  }
+}
